@@ -6,4 +6,4 @@ ADD . /opt/harborexample-node
 
 RUN cd /opt/harborexample-node; npm install;
 
-CMD [ "node", "/opt/harborexample-node/app.js" ]
+CMD [ "node", "/opt/harborexample-node/index.js" ]
