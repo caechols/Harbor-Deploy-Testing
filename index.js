@@ -7,7 +7,7 @@ router.get('/', function(req, res) {
     res.json({test: 'Hello World!!'});
 });
 
-router.get('/hc/', function(req, res) {
+router.get('/hc', function(req, res) {
     res.sendStatus(200);
 });
 
